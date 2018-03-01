@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Plugincompany_Cssjsmergefilename>
+            <version>1.0.0</version>
+        </Plugincompany_Cssjsmergefilename>
+    </modules>
+    <global>
+        <models>
+            <plugincompany_cssjsmergefilename>
+                <class>Plugincompany_Cssjsmergefilename_Model</class>
+                <resourceModel>plugincompany_cssjsmergefilename_resource</resourceModel>
+            </plugincompany_cssjsmergefilename>
+            <plugincompany_cssjsmergefilename_resource>
+                <class>Plugincompany_Cssjsmergefilename_Model_Resource</class>
+            </plugincompany_cssjsmergefilename_resource>
+            <core>
+                <rewrite>
+                    <design_package>Plugincompany_Cssjsmergefilename_Model_Core_Design_Package</design_package>
+                </rewrite>
+            </core>
+        </models>
+        <helpers>
+            <plugincompany_cssjsmergefilename>
+                <class>Plugincompany_Cssjsmergefilename_Helper</class>
+            </plugincompany_cssjsmergefilename>
+        </helpers>
+    </global>
+</config>
